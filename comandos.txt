@@ -1,0 +1,320 @@
+    1  ls
+    2  git config --global user.name "Brayan Cespedes"
+    3  git config --global user.email "bryancespedes1706@gmail.com"
+    4  ls -al ~/.ssh
+    5  ssh-keygen -t ed25519 -C "bryancespedes1706@gmail.com"
+    6  eval "$(ssh-agent -s)"
+    7  ssh-add ~/.ssh/id_ed25519
+    8  ls .ssh
+    9  clip < ~/.ssh/id_ed25519.pub
+   10  eval "$(ssh-agent -s)"
+   11  ls -la
+   12  cls
+   13  clear
+   14  ssh-add -K ~/.ssh/id_ed25519
+   15  eval "$(ssh-agent -s)"
+   16  ssh-add ~/.ssh/id_ed25519
+   17  git version
+   18  git init
+   19  pwd
+   20  ls
+   21  cls
+   22  clear
+   23  pwd
+   24  ls
+   25  ls -l
+   26  ls -a
+   27  ls ..
+   28  ls -l
+   29  ls -lh
+   30  ls -l
+   31  clear
+   32  pwd
+   33  ls -lah ..
+   34  cd ..
+   35  cd Escritorio
+   36  mkdir dir1
+   37  cd dir1
+   38  mkdir nueva carpeta
+   39  mkdir "nueva carpeta"
+   40  touch archivo 1 archivo.pdf archivo.txt archivo.jpg
+   41  ls -l
+   42  rm 1
+   43  ls -l
+   44  rm -r carpeta
+   45  ls -l
+   46  rm -r *
+   47  ls 
+   48  mkdir -p padre/hijo
+   49  ls
+   50  ls -l
+   51  mkdir madre
+   52  mkdir madre/hijo
+   53  ls -l
+   54  cd padre
+   55  mkdir hijo1
+   56  mkdir hijo2
+   57  ls
+   58  rm -r hijo
+   59  ls
+   60  cd hijo2
+   61  touch nieto2
+   62  
+   63   ~/OneDrive/Escritorio/dir1/padre/hijo2 sd
+   64  mv nieto2  ~/OneDrive/Escritorio/dir1/padre/hijo1 
+   65  ls
+   66  cd ..
+   67  ls
+   68  cd hijo1
+   69  ls
+   70  mv nieto2 ../hijo2
+   71  cd ..
+   72  ls
+   73  cd hijo2
+   74  ls
+   75  cd ..
+   76  clear
+   77  cd ..
+   78  ls
+   79  rm -r padre
+   80  ls
+   81  rm -r madre
+   82  ls
+   83  cd ..
+   84  rm -r dir1
+   85  ls
+   86  mkdir DH
+   87  cd DH
+   88  mkdir Peliculas
+   89  cd Peliculas
+   90  mkdir Infantiles Accion Terror Comedia Romanticas
+   91  ls
+   92  cd Infantiles
+   93  touch Intensamente.txt
+   94  touch "El juego del miedo".xls
+   95  touch "Rapido y furioso".pdf
+   96  touch Titanic.jpg
+   97  ls
+   98  cd ..
+   99  cd Accion
+  100  touch "Smooth criminal".txt
+  101  touch "Diario de una pasion".js
+  102  touch "El hexorcista".xls
+  103  touch Cars.jpg
+  104  cd ..
+  105  cd Terror
+  106  touch "La dama y el bagavundo".png
+  107  touch "Yo antes de ti".xls
+  108  touch "Que paso ayer".pdf
+  109  touch "We will rock you".js
+  110  ls -l
+  111  cd ..
+  112  cd Comedia
+  113  touch Madagaskar.js
+  114  touch "Orgullo y prejuicio".txt
+  115  touch IT.xls
+  116  touch "Mision imposible".png
+  117  cd ..
+  118  cd Romantica
+  119  touch Pocahontas.jpg
+  120  touch Anabelle.js
+  121  touch "Los vengadores".js
+  122  touch "La mascara".js
+  123  ls -l
+  124  mv Anabelle.js /Romantica
+  125  ls -l
+  126  mv Pocahontas.jpg /Romantica
+  127  cd Romanticas
+  128  ls -l
+  129  cd ..
+  130  ls -l
+  131  rm "La mascara".js
+  132  rm "Los vengadores".js
+  133  ls -l
+  134  cd Romanticas
+  135  touch Pocahontas.jpg
+  136  touch Anabelle.js
+  137  touch "Los vengadores".js
+  138  touch "La mascara".js
+  139  ls -l
+  140  cd ..
+  141  ls -l
+  142  ls -R
+  143  clear
+  144  ls -R
+  145  tree
+  146  tree -R
+  147  tree -R 
+  148  ls -R
+  149  clear
+  150  mkdir Romanticas1 Infantiles1 Accion1 Terror1 Comedia1
+  151  ls -l
+  152  cd Infantiles1
+  153  clear
+  154  touch Intensamente.txt "El juego del miedo".xls "Rapido y furioso".pdf Titanic.jpg
+  155  ls -l
+  156  cd ..
+  157  cd ..
+  158  clear
+  159  mkdir Romanticas/Prueba
+  160  mkdir -p Romanticas/Prueba
+  161  ls -l
+  162  clear
+  163  mkdir Peliculas/Romanticas/Prueba
+  164  cd Peliculas/Romanticas
+  165  ls -l
+  166  clear
+  167  mkdir ../Accion/Prueba2
+  168  cd ..
+  169  cd Accion
+  170  ls -l
+  171  mkdir Ecommerce
+  172  cd Ecommerce
+  173  touch app.js
+  174  touch config.js
+  175  mkdir db
+  176  git init
+  177  git add .
+  178  git commit -m "Primer Commit"
+  179  cd db/
+  180  touch producto_db.js
+  181  touch carrito_db.js
+  182  cd ..
+  183  code app.js
+  184  git commit -m "Guardando lo importante"
+  185  git add .
+  186  git commit -m "Guardando una parte del proyecto"
+  187  cd db
+  188  rm producto_db.js
+  189  git restore .
+  190  ls
+  191  rm ../config.js
+  192  ls ..
+  193  git add .
+  194  git commit -m "Sacando la configuracion"
+  195  git status
+  196  git logs
+  197  git log
+  198  mkdir camada5
+  199  cd camada5
+  200  git init
+  201  ls -a
+  202  touch index.html
+  203  git add index.html
+  204  git config user.name brayan
+  205  git config user.email bryancespedes1706@gmail.com
+  206  git commit -m "new branch"
+  207  git log
+  208  git branch rama2
+  209  git branch
+  210  git checkout rama2
+  211  git log
+  212  clear
+  213  touch app.js
+  214  git add .
+  215  git commit -m "agregando app"
+  216  git log
+  217  git checkout main
+  218  git checkout master
+  219  git log
+  220  git checkout rama2
+  221  git log
+  222  git checkout master
+  223  git log
+  224  clear
+  225  touch config.js
+  226  git checkout rama2
+  227  git status
+  228  git checkout master
+  229  git merge rama2
+  230  git log
+  231  git status
+  232  git add config.js
+  233  git status
+  234  clear
+  235  git checkout rama2
+  236  git status
+  237  git log
+  238  git commit -m "config.js added"
+  239  git checkout master
+  240  git status
+  241  git checkout rama2
+  242  git checkout master
+  243  cd Escritorio
+  244  git clone https://github.com/VicR11/Clase4grupo13.git
+  245  git pull origin master https://github.com/VicR11/Clase4grupo13.git
+  246  git pull origin master 
+  247  git pull https://github.com/VicR11/Clase4grupo13.git
+  248  cd Clase4grupo13
+  249  git status
+  250  git status
+  251  git pull
+  252  mkdir informes
+  253  cd informes
+  254  touch informeAnual.xls
+  255  ls
+  256  mkdir auditoria
+  257  touch auditoria.xls
+  258  touch reporteConsolidado.xls
+  259  ls
+  260  mv auditoria.xls auditoria
+  261  cd auditoria
+  262  ls
+  263  clear
+  264  git --version
+  265  git init
+  266  mkdir 18-08-23CheckPoint-BrayanCespedes
+  267  git init
+  268  cd 18-08-23CheckPoint-BrayanCespedes
+  269  git remote add origin git@github.com:Krlozces/18-08-23CheckPoint-BrayanCespedes.git
+  270  touch main.js
+  271  touch index.html
+  272  git commit -m "commit 01 de brayanCespedes"
+  273  git log
+  274  git status
+  275  mkdir 18-08-23CheckPoint-BrayanCespedes
+  276  cd 18-08-23CheckPoint-BrayanCespedes
+  277  git init
+  278  git remote add origin master git@github.com:Krlozces/18-08-23CheckPoint-BrayanCespedes.git
+  279  touch main.js
+  280  touch index.html
+  281  ls
+  282  git commit -m "commit 01 de brayanCespedes"
+  283  git log
+  284  git add .
+  285  git commit -m "commit 01 de brayanCespedes"
+  286  git log
+  287  git push origin master
+  288  git push origin main
+  289  git push origin master
+  290  git remote add origin git@github.com:Krlozces/18-08-23CheckPoint-BrayanCespedes.git
+  291  git push origin master
+  292  git branch feature
+  293  git checkout feature
+  294  mkdir Hardware
+  295  mkdir Software
+  296  mkdir SeguridadInformatica
+  297  ls
+  298  cd Hardware
+  299  touch resumen.txt
+  300  cd ..
+  301  ls
+  302  cd SeguridadInformatica
+  303  touch resumen.txt
+  304  cd ..
+  305  ls
+  306  cd Software
+  307  touch resumen.txt
+  308  cd ..
+  309  git push origin
+  310  git push origin feature
+  311  git checkout main
+  312  git checkout master
+  313  ls
+  314  mv main.js resumenHardware.txt
+  315  mv index.html resumenSoftware.txt
+  316  ls
+  317  nano resumenSoftware.txt
+  318  nano resumenHardware.txt
+  319  touch comandos.txt
+  320  history > comandos.txt
